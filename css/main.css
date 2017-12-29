@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #9d37a2;
+    color: #413B3D;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+h1 {
+    margin: 50px auto 0;
+    color: white;
+}
+
+#note {
+    margin: 30px auto 15px;
+    font-size: 1.5em;
+    height: 30px;
+}
+
+.board {
+    margin: 20px auto 0;
+    border-collapse: collapse;
+}
+
+.board td {
+    background-color: #C6C4C4;
+    border: 2px solid #fff;
+    width: 75px;
+    height: 75px;
+    font-size: 2em;
+    text-align: center;
+}
+
+.board td:hover {
+    background-color: #c7e06d;
+}
+
+.bomb {
+    background-image: url('../assets/images/bomba.png')!important;
+    background-position: center;
+    background-size: 95%;
+    background-repeat: no-repeat;
+}
+
+#restart {
+    margin: 25px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(66, 206, 169);
+    color: #00241B;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#restart:focus {
+    outline: none;
+}
+
+#restart:hover {
+    background-color: rgb(81, 167, 204);
+    color: #fff;
+}
